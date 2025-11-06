@@ -1,0 +1,30 @@
+{
+  "name": "squash-and-print",
+  "version": "1.0.0",
+  "description": "It squashes an image in the browser and prints it on a thermal printer. 🤷",
+  "homepage": "https://github.com/intelagense/squash-and-print#readme",
+  "bugs": {
+    "url": "https://github.com/intelagense/squash-and-print/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intelagense/squash-and-print.git"
+  },
+  "license": "MIT",
+  "author": "intelagense",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "nanoid": "^5.1.6",
+    "serialport": "^13.0.0",
+    "sharp": "^0.34.4"
+  }
+}
