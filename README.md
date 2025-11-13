@@ -14,7 +14,7 @@ It squashes an image in the browser and prints it on a thermal printer. 🤷
 └── server.js // express server
 ```
 
-## runing for testing
+## running for testing
 
 `npm install` to set up server deps.
-`npm run dev` to start the test server.
+`npm run dev` to start the test server on port 58008.

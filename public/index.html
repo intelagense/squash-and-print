@@ -14,26 +14,26 @@
 </head>
 <body>
     <main>
-        <h1>Howdy, World!</h1>
+        <h1>Questions and praises welcome!</h1>
         <form id="submitForm">
+            <p>So, don't use emojis or super fancy letters yet. This is just the demo y'all that stuff is difficult to implement.</p>
             <label for="name" class="required">Name</label>
             <input type="text" id="name" name="name" required placeholder="Your name" maxlength="30" title="Maximum 30 characters">
 
-            <label for="email" class="required">Email</label>
+            <label for="email" class="required">Email (DW, not printed or photographed. Mostly just if I need to follow up with you.)</label>
             <input type="email" id="email" name="email" required placeholder="your@email.com" maxlength="45" title="Maximum 45 characters">
 
             <label for="message" class="required">Message</label>
             <textarea id="message" name="message" required placeholder="Type your message (Max 256 characters)" maxlength="256" rows="8" cols="32" title="Maximum 256 characters"></textarea>
 
             <label for="image" class="required">Image (actually required)</label>
-            <input type="file" id="image" name="image" accept="image/jpeg, image/webp" required>
+            <input type="file" id="image" name="image" accept="image/*" required>
 
             <button type="submit">Send</button>
         </form>
     </main>
     <footer>
-        <p>© 2025 <a href="https://intelagense.com">intelagense</a></p>
-        <p><a href="https://github.com/intelagense/squash-and-print">GitHub</a></p>
+        <p>© 2025 <a href="https://intelagense.com">intelagense</a> | <a href="https://github.com/intelagense/squash-and-print">GitHub</a></p>
     </footer>
     <script type="module" src="main.js"></script>
 </body>

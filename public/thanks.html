@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You!</title>
+    <link rel="stylesheet" href="pico.classless.amber.min.css">
+    <style>
+        body {
+            background-color: var(--pico-background-color, #fff8e1);
+        }
+        .receipt-preview {
+            font-family: 'Courier New', Courier, monospace;
+            background: white;
+            padding: var(--pico-spacing);
+            max-width: 450px;
+            margin: 2rem auto;
+            white-space: pre-wrap;
+            font-size: 1em;
+            border: 1px solid #ddd;
+        }
+        .receipt-image {
+            max-width: 384px;
+            height: auto;
+            display: block;
+            image-rendering: pixelated;
+            filter: contrast(1.2) brightness(1.2);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Thanks, <span id="userName"></span>!</h1>
+        <p>Your message has been queued for printing.</p>
+        
+        <div class="receipt-preview" id="receiptPreview"></div>
+        
+        <p style="text-align: center;">
+            <a href="/">Submit another message</a>
+        </p>
+    </main>
+    <footer>
+        <p>© 2025 <a href="https://intelagense.com">intelagense</a> | <a href="https://github.com/intelagense/squash-and-print">GitHub</a></p>
+    </footer>
+    <script type="module" src="thanks.js"></script>
+</body>
+</html>
+

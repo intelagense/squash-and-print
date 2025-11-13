@@ -137,3 +137,12 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Data directory (contains PII and images)
+data/
+
+# Test directory (contains test files and development notes)
+test/
+
+# Cloudflare tunnel configuration (demo only, not part of codebase)
+.cloudflared/
